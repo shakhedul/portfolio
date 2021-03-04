@@ -209,7 +209,7 @@ nav ul li a:hover{
 
 .home .right{
 	color:var(--pure);
-	margin: -5rem 0 0 1rem;
+	margin: -5rem 0 0 2rem;
 	transition:all .5s;
 
 }
@@ -450,6 +450,19 @@ section .about-me-text button:hover{
 	/*clip-path: polygon(0 0, 100% 0,100% 100%, 70% 90%, 0 100%);*/
 }
 
+.section-title-h1{
+	text-align: center;
+	padding: 4.5rem 0px 1rem 0px;
+	margin: 0 0 2rem 0;
+	color: var(--dark);
+	font-size: 1.4rem;
+}
+.section-title-h1 span{
+	color: #3dcfd3
+}
+.section-title-pera{
+	font-size: .8rem;
+}
 section.services .card-wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -1186,6 +1199,7 @@ button .times:hover{
 
 	}
 	.home .right{
+		margin: -5rem 0 0 1rem;
 		padding: 15rem 0;
 		z-index: 1;
 	}
