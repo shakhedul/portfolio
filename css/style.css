@@ -209,7 +209,7 @@ nav ul li a:hover{
 
 .home .right{
 	color:var(--pure);
-	margin: -5rem 0 0 2rem;
+	margin: -5rem 0 0 1rem;
 	transition:all .5s;
 
 }
@@ -355,6 +355,7 @@ section .about-me-text button:hover{
 	margin: 0 2rem 3rem 3rem;
     text-align: center;
     color: var(--ternary);
+	font-size: .9rem;
 }
 
 .skill{
@@ -490,7 +491,7 @@ section.services .card-wrapper{
     border-radius: 10px;
     width: 222px;
     border: 1px solid transparent;
-    transition: all .3s !important; 
+    transition: all .7s !important; 
 }
 
 .card h4{
@@ -694,6 +695,49 @@ Testimonial Media Query
     bottom: -8%;
   }
 }
+
+
+/*Project done*/
+.project-work{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.87)), url('https://assets.entrepreneur.com/content/3x2/1300/20150206154027-people-meeting-client-business-laptop-.jpeg');
+	background-attachment: fixed;
+	background-color: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.9))
+
+}
+.project-done-h1{
+	color: white;
+}
+
+.num{
+	font-size: 2.5rem;
+}
+.project p {
+    font-size: 1.2rem;
+}
+.hadings{
+	margin-bottom: 50px;
+}
+
+.hadings h5{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.project-done{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 0 0 0 1rem;
+}
+.hadings h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 
 
 /*start contact section*/
@@ -1196,6 +1240,12 @@ button .times:hover{
 	}
 	.form-wrap{
 		flex-direction: column;
+	}
+	.project h1{
+		font-size: 1.5rem;
+	}
+	.project p{
+		font-size: .9rem;
 	}
 	.form {
     width: 100%;

@@ -51,17 +51,3 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
-
-/*==================== SCROLL REVEAL ANIMATION ====================*/
-const sr = ScrollReveal({
-    origin: 'bottom',
-    distance: '50px',
-    duration: 2000,
-    reset: true
-});
-
-sr.reveal(`.right, .about-me-text,
-            .skills, .about__img, .card
-        `, {
-    interval: 200
-})
