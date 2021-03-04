@@ -835,7 +835,7 @@ footer{
 }
 
 .footer-content .footer-desc{
-	font-size: .9rem;
+	font-size: .7rem;
 	line-height: 1.6;
 	list-style: none;
 }
@@ -891,7 +891,7 @@ footer{
 	outline: none;
 	border: 1px solid transparent;
 	margin: 0;
-	font-size: 1rem;
+	font-size: .9rem;
 	color: #eacf07f2;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -915,6 +915,7 @@ hr{
 .copyright{
 	text-align: center;
 	margin: auto;
+	font-size: .9rem;
 }
 .copyright a{
 	color: var(--ternary);
@@ -1051,7 +1052,7 @@ button .times:hover{
     input {
     padding: 1rem .5rem;
 	width: 100%;
-	font-size: .9rem;	
+	font-size: .7rem;	
 	}
 	.companyPhone input {
     width: 100%;
