@@ -1008,7 +1008,7 @@ button .times:hover{
 /*Laptop view*/
 @media (min-width: 992px){
 	.container{
-		max-width: 100%;
+		max-width: 992px;
 	}
 
 }
@@ -1016,7 +1016,7 @@ button .times:hover{
 /*Larges Screen*/
 @media (min-width: 1200px){
 	.container{
-		max-width: 100%;
+		max-width: 1200px;
 	}
 
 }
