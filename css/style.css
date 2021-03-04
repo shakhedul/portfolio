@@ -1005,39 +1005,32 @@ button .times:hover{
 	}
 }
 
-/*Tab view*/
-/*@media (min-width: 768px){
-	.container{
-		max-width: 100%;
-	}
-}
-*/
-
 /*Laptop view*/
 @media (min-width: 992px){
 	.container{
-		max-width: 960px;
+		max-width: 100%;
 	}
 
 }
-
 
 /*Larges Screen*/
 @media (min-width: 1200px){
 	.container{
-		max-width: 1152px;
+		max-width: 100%;
 	}
 
 }
-
-/*@media (max-width: 768px){
-	section.services .card-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    }
-}*/
-
+/*Laptop view*/
 @media (max-width: 990px){
+	.logo {
+    margin: 0rem 0 0 0.9rem;
+	}
+	nav ul li a{
+		font-size: .9rem;
+	}
+	.nav__contact{
+		margin: 0 1rem 0px 0px;
+	}
 	.left img{
 		width: 260px;
 	}
@@ -1077,13 +1070,18 @@ button .times:hover{
 		right: 40px;
 	}
 	.footer-section{
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.footer-content{
+		margin: 0 0 3rem 0;
 	}
 	.scrolltop{
 		right: 3rem;
 	}
 }
 
+
+/*Tab view*/
 @media (max-width:768px){
 	section.services .card-wrapper {
     display: grid;
@@ -1109,7 +1107,7 @@ button .times:hover{
 	}
 	.menu {
     margin: 0 0 0 -3rem;
-}
+	}
 
 	section .about-me-text {
     margin-left: 2rem;
@@ -1131,7 +1129,7 @@ button .times:hover{
 }
 
 
-
+/*Mobile view*/
 @media (max-width:575px){
 	nav{
 		display: none;
@@ -1143,7 +1141,6 @@ button .times:hover{
 
 	}
 	.home .right{
-	/*	margin: -5rem 0 0 -18rem;*/
 		padding: 15rem 0;
 		z-index: 1;
 	}
@@ -1220,8 +1217,3 @@ button .times:hover{
 
 }
 
-@media (max-width:375px){
-	.subscribe{
-		width: 100%
-	}
-}
